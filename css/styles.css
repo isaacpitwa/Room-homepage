@@ -81,3 +81,6 @@ body{
     background-color: var(--very-dark-gray);
 }
 
+.hidden{
+    display: none;
+}
