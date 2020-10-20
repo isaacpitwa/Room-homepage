@@ -39,7 +39,9 @@ body{
 .nav-item:hover .nav-link{
     border-bottom: 1.8px solid white;
 }
-
+.slide-item{
+    align-items: center;
+}
 .text-content{
     padding: 5.2em;
 }
@@ -53,5 +55,15 @@ body{
     word-spacing: 0.3em;
     margin-bottom: 2.1rem;
     line-height: 1.6;
+}
+.action-btn a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 16px;
+    letter-spacing: 0.4em;
+}
+.action-btn a span{
+    margin-left: px;
 }
 
