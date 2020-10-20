@@ -85,21 +85,24 @@ body{
     display: none;
 }
 
-/* .light-side ,.dark-side{
-    max-width: 30%;
-} */
+ /* .light-side ,.dark-side{
+    max-width: 20%;
+}  */
 .about-section {
     align-items: center;
 }
 .about-section  .content{
-    max-width: 40%;
+     max-width: 45%; 
     padding: 5.2em;
 } 
 
-.light-side img, .dark-side img{
-    /* width: 30%;
-    overflow: hidden; */
-   
+
+.about-section  .content h3{
+    color: var(--black);
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    margin-bottom: 1.8rem ;
 }
 
 
