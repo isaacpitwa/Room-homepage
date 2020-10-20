@@ -13,3 +13,18 @@
 body{
     font-size: 12px;
 }
+.d-flex{
+    display: flex;
+}
+.header-nav{
+    background-color: transparent;
+}
+.nav-list{
+    list-style: none;
+}
+.nav-item{
+    margin: 1.8rem;
+}
+.nav-link{
+    
+}
