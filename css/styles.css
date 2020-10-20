@@ -67,3 +67,12 @@ body{
     margin-left: px;
 }
 
+.slider-btns{
+    position: absolute;
+    bottom: 0;
+}
+.slider-btn {
+    background-color: var(--black);
+    padding: 1.2em 1.8em;
+}
+
