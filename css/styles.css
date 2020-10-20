@@ -18,6 +18,10 @@ body{
 }
 .header-nav{
     background-color: transparent;
+    position: absolute;
+    top: 1.8rem;
+    left: 4.8rem;
+    align-items: center;
 }
 .nav-list{
     list-style: none;
@@ -26,5 +30,5 @@ body{
     margin: 1.8rem;
 }
 .nav-link{
-    
+
 }
