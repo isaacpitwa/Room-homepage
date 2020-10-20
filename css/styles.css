@@ -39,3 +39,11 @@ body{
 .nav-item:hover .nav-link{
     border-bottom: 1.8px solid white;
 }
+
+.text-content{
+    padding: 5.2em;
+}
+.text-content h3 {
+    color: var(--black);
+    font-size: 28px;
+}
