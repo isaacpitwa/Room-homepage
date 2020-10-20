@@ -30,5 +30,7 @@ body{
     margin: 1.8rem;
 }
 .nav-link{
-
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 600;
 }
