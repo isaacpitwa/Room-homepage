@@ -46,4 +46,12 @@ body{
 .text-content h3 {
     color: var(--black);
     font-size: 28px;
+    margin-bottom: 2.4rem;
 }
+.text-content p{
+    color: var(--dark-gray);
+    word-spacing: 0.3em;
+    margin-bottom: 2.1rem;
+    line-height: 1.6;
+}
+
