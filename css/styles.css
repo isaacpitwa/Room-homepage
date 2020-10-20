@@ -76,4 +76,8 @@ body{
     background-color: var(--black);
     padding: 1.2em 1.8em;
 }
+.slider-btn:hover{
+    cursor: pointer;
+    background-color: var(--very-dark-gray);
+}
 
