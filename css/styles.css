@@ -85,4 +85,21 @@ body{
     display: none;
 }
 
+/* .light-side ,.dark-side{
+    max-width: 30%;
+} */
+.about-section {
+    align-items: center;
+}
+.about-section  .content{
+    max-width: 40%;
+    padding: 5.2em;
+} 
+
+.light-side img, .dark-side img{
+    /* width: 30%;
+    overflow: hidden; */
+   
+}
+
 
