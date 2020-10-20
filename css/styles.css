@@ -27,10 +27,15 @@ body{
     list-style: none;
 }
 .nav-item{
-    margin: 1.8rem;
+    margin: 1.2rem;
 }
 .nav-link{
     text-decoration: none;
     color: var(--white);
     font-weight: 600;
+    padding-bottom: 8px;
+
+}
+.nav-item:hover .nav-link{
+    border-bottom: 1.8px solid white;
 }
