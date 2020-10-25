@@ -12,6 +12,7 @@
 }
 body{
     font-size: 12px;
+    overflow-x: hidden;
 }
 .d-flex{
     display: flex;
@@ -41,6 +42,7 @@ body{
 }
 .slide-item{
     align-items: center;
+    position: relative;
 }
 .slide-item .image{
     background:url("/images/desktop-image-hero-1.jpg") ;
@@ -48,18 +50,18 @@ body{
     width: 840px;
 }
 .text-content{
-    padding: 5.2em;
+    padding: 48px;
 }
 .text-content h3 {
     color: var(--black);
     font-size: 28px;
-    margin-bottom: 2.4rem;
+    margin-bottom: 18px;
 }
 .text-content p,.about-section  .content p{
     color: var(--dark-gray);
     word-spacing: 0.3em;
     margin-bottom: 2.1rem;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 .action-btn a {
     text-decoration: none;
@@ -73,9 +75,9 @@ body{
 }
 
 .slider-btns{
-    /* position: absolute;
-    bottom: 0; */
-    margin-bottom: -4.4rem;
+     position: absolute;
+    bottom: 0; 
+    /* margin-bottom: -104px; */
 }
 .slider-btn {
     background-color: var(--black);
@@ -90,25 +92,23 @@ body{
     display: none;
 }
 
- /* .light-side ,.dark-side{
-    max-width: 20%;
-}  */
-.about-section {
-}
+  .light-side ,.dark-side{
+    flex: 0 0 32.5em;
+}  
 .about-section  .content{
-    flex: 0 0 25em;
+    flex: 0 0 34.5em;
     padding: 5.0em;
     padding-top: 0;
 } 
 .about-section  .content h3{
     color: var(--black);
-    font-size: 18px;
+    font-size: 15px;
     text-transform: uppercase;
-    letter-spacing: 0.5em;
+    word-spacing: 0.5em;
+    letter-spacing: 0.3em;
     margin-bottom: 1.8rem ;
     margin-top: 1.8rem;
 }
-.about-section .dark-side{
-}
+
 
 
