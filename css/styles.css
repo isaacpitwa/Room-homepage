@@ -42,6 +42,11 @@ body{
 .slide-item{
     align-items: center;
 }
+.slide-item .image{
+    background:url("/images/desktop-image-hero-1.jpg") ;
+    height: 534px;
+    width: 840px;
+}
 .text-content{
     padding: 5.2em;
 }
