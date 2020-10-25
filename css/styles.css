@@ -49,12 +49,12 @@ body{
     width: 840px;
 }
 .text-content{
-    padding: 5.2em;
+    padding: 48px;
 }
 .text-content h3 {
     color: var(--black);
     font-size: 28px;
-    margin-bottom: 2.4rem;
+    margin-bottom: 18px;
 }
 .text-content p,.about-section  .content p{
     color: var(--dark-gray);
@@ -91,9 +91,9 @@ body{
     display: none;
 }
 
- /* .light-side ,.dark-side{
-    max-width: 20%;
-}  */
+  .light-side ,.dark-side{
+    flex: 0 0 32.5em;
+}  
 .about-section  .content{
     flex: 0 0 34.5em;
     padding: 5.0em;
