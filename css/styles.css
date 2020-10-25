@@ -42,6 +42,7 @@ body{
 }
 .slide-item{
     align-items: center;
+    position: relative;
 }
 .slide-item .image{
     background:url("/images/desktop-image-hero-1.jpg") ;
@@ -74,9 +75,9 @@ body{
 }
 
 .slider-btns{
-    /* position: absolute;
-    bottom: 0; */
-    margin-bottom: -4.5em;
+     position: absolute;
+    bottom: 0; 
+    /* margin-bottom: -104px; */
 }
 .slider-btn {
     background-color: var(--black);
