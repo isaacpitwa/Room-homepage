@@ -97,13 +97,13 @@ body{
 .about-section {
 }
 .about-section  .content{
-    flex: 0 0 25em;
+    flex: 0 0 34.5em;
     padding: 5.0em;
     padding-top: 0;
 } 
 .about-section  .content h3{
     color: var(--black);
-    font-size: 18px;
+    font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 0.5em;
     margin-bottom: 1.8rem ;
