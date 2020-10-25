@@ -75,7 +75,7 @@ body{
 .slider-btns{
     /* position: absolute;
     bottom: 0; */
-    margin-top: 63px;
+    margin-top: 68px;
 }
 .slider-btn {
     background-color: var(--black);
