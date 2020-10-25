@@ -89,11 +89,11 @@ body{
     max-width: 20%;
 }  */
 .about-section {
-    align-items: center;
 }
 .about-section  .content{
-     max-width: 45%; 
+    flex: 0 0 25em;
     padding: 5.2em;
+    padding-top: 0;
 } 
 .about-section  .content h3{
     color: var(--black);
@@ -101,6 +101,8 @@ body{
     text-transform: uppercase;
     letter-spacing: 0.5em;
     margin-bottom: 1.8rem ;
+}
+.about-section .dark-side{
 }
 
 
