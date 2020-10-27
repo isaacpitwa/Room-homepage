@@ -45,8 +45,6 @@ body{
     position: relative;
 }
 .slide-item .image{
-    background-image:url("/images/desktop-image-hero-1.jpg");
-    background-repeat: no-repeat;
     height: 534px;
 }
 .image img{
@@ -126,12 +124,18 @@ background-repeat: no-repeat;
 .action-btn:hover  a{
     opacity: 0.5;
 }
+.slide-item-1{
+    background-image: url('/images/desktop-image-hero-1.jpg');
+    background-repeat: no-repeat;
+}
 
 .slide-item-2{
-    background: url('/images/desktop-image-hero-2.jpg')  no-repeat;
+    background-image: url('/images/desktop-image-hero-2.jpg');
+    background-repeat: no-repeat;
 }
 .slide-item-3{
-    background: url('/images/desktop-image-hero-3.jpg')  no-repeat;
+    background-image: url('/images/desktop-image-hero-3.jpg');
+    background-repeat: no-repeat;
 }
 /* Mobile Styles */
 @media only screen and (max-width: 600px){
