@@ -47,10 +47,6 @@ body{
 .slide-item .image{
     background-image:url("/images/desktop-image-hero-1.jpg");
     background-repeat: no-repeat;
-    height: 0;
-    background-size: contain;
-    width: 100%;
-    padding-top: 65.57%;
 
 }
 .image img{
@@ -167,7 +163,7 @@ background-repeat: no-repeat;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
       align-items: center;
-      min-width: 100%;
+      min-width: 89%;
       height: 102px;
     }
     .responsive .nav-list .nav-link{
@@ -187,9 +183,10 @@ background-repeat: no-repeat;
     }
     .slide-item .image{
         background: url('/images/mobile-image-hero-1.jpg') no-repeat;
-    }
-    .slide-item .image img::after{
-        content: attr(src) "/images/mobile-image-hero-1.jpg";
+        height: 0;
+        background-size: contain;
+        width: 100%;
+        padding-top: 96%;
     }
     .slide-item-2 .image{
         background: url('/images/mobile-image-hero-2.jpg') no-repeat;
