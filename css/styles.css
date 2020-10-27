@@ -195,6 +195,8 @@ background-repeat: no-repeat;
         background: url('/images/mobile-image-hero-3.jpg') no-repeat;
     }
 
-
+    .dark-side img, .light-side img {
+        width: 100%;
+    }
 
 }
