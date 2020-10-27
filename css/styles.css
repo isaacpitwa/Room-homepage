@@ -110,5 +110,8 @@ body{
     margin-top: 1.8rem;
 }
 
+.action-btn:hover  a{
+    opacity: 0.5;
+}
 
 
