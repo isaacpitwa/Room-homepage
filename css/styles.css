@@ -47,7 +47,7 @@ body{
 .slide-item .image{
     background-image:url("/images/desktop-image-hero-1.jpg");
     background-repeat: no-repeat;
-
+    height: 534px;
 }
 .image img{
     visibility: hidden;
