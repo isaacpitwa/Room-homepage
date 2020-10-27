@@ -45,9 +45,12 @@ body{
     position: relative;
 }
 .slide-item .image{
-    background:url("/images/desktop-image-hero-1.jpg") ;
+    background-image:url("/images/desktop-image-hero-1.jpg");
+    background-repeat: no-repeat;
     height: 534px;
-    width: 840px;
+}
+.image img{
+    visibility: hidden;
 }
 .text-content{
     padding: 48px;
@@ -87,6 +90,16 @@ body{
     cursor: pointer;
     background-color: var(--very-dark-gray);
 }
+.toggle-btn{
+    display: none;
+}
+#toggleBtn{
+background-image: url('/images/icon-hamburger.svg');
+width: 32px;
+height: 32px;
+background-repeat: no-repeat;
+}
+
 
 .hidden{
     display: none;
@@ -114,4 +127,85 @@ body{
     opacity: 0.5;
 }
 
+.slide-item-2{
+    background: url('/images/desktop-image-hero-2.jpg')  no-repeat;
+}
+.slide-item-3{
+    background: url('/images/desktop-image-hero-3.jpg')  no-repeat;
+}
+/* Mobile Styles */
+@media only screen and (max-width: 600px){
+    .toggle-btn{
+        display: block;
+        float: left;
+        margin: 42px 16px ;
+    }
+    .nav-list{
+        display: none;
+    }
 
+    .responsive .opened#toggleBtn{
+        background-image: url('/images/icon-close.svg');
+        background-repeat: no-repeat;
+    }
+    .responsive {position: relative;}
+    .responsive button.toggle-btn {
+        z-index: 1;
+        display: block;
+        position: absolute;
+        margin: 42px 16px ;
+    }
+    .responsive {position: relative;}
+    .responsive .nav-list {
+      display: flex;
+      position: absolute;
+      background-color: #f9f9f9;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      align-items: center;
+      min-width: 89%;
+      height: 102px;
+    }
+    .responsive .nav-list .nav-link{
+            color: var(--black);
+    }
+    .header-nav {
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 100%;
+    }
+    .nav-brand{
+    display: none;
+    }
+    .slide-item ,.about-section{
+        flex-direction: column;
+    }
+    .slide-item .image{
+        background: url('/images/mobile-image-hero-1.jpg') no-repeat;
+        height: 0;
+        background-size: contain;
+        width: 100%;
+        padding-top: 96%;
+    }
+    .slide-item-2 .image{
+        background: url('/images/mobile-image-hero-2.jpg') no-repeat;
+    }
+    .slide-item-3 .image{
+        background: url('/images/mobile-image-hero-3.jpg') no-repeat;
+    }
+
+    .dark-side img, .light-side img {
+        width: 100%;
+    }
+    .content-wrapper{
+        position: relative;
+    }
+    .slider-btns {
+        position: absolute;
+        top: -57px;
+        right: 0;
+        bottom: unset;
+    }
+
+}
