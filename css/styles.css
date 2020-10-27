@@ -94,6 +94,15 @@ body{
     cursor: pointer;
     background-color: var(--very-dark-gray);
 }
+.toggle-btn{
+    display: none;
+}
+#toggleBtn{
+background-image: url('/images/icon-hamburger.svg');
+width: 32px;
+height: 32px;
+}
+
 
 .hidden{
     display: none;
@@ -129,6 +138,16 @@ body{
 }
 /* Mobile Styles */
 @media only screen and (max-width: 375px){
+    .toggle-btn{
+        display: block;
+        float: left;
+    }
+    .nav-list{
+        display: none;
+    }
+    .nav-brand{
+        float: right;
+    }
     .slide-item ,.about-section{
         flex-direction: column;
     }
